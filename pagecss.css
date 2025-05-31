@@ -1,0 +1,83 @@
+@import 'reset.css';
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/vazir.woff2') format('woff2'),
+     url('../fonts/vazir.woff') format('woff'),
+     url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+body, input, button {
+    font-family: vazirNormal;
+}
+
+
+body {
+    direction: rtl;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+.container{
+    margin: auto;
+    width: 86%;   
+}
+
+* {
+    box-sizing: border-box; 
+     color: aliceblue;
+     background-color: rgb(16, 25, 31);
+
+}
+
+#header{
+    width: 100%;
+   background-color: rgb(16, 64, 74);
+}
+
+
+
+/* end header */
+
+    
+    /* color: rgb(19, 124, 215); 
+    */
+
+
+
+/* end side bar */
+
+
+#content{
+display: grid;
+
+
+}
+.box{
+    border: 0px;
+    width: clamp(200px, 20%  , 370px);
+    background-color: rgb(27, 84, 101);
+    padding: 20px;
+    border-radius: 51px 55px 0 36px;
+    border: 1px solid #23313c;
+    box-shadow: 0 0px 29px 18px rgba(10, 117, 92, 0.85);
+
+}
+#content .title{
+    color: rgb(29, 30, 31);
+    font-size: 2rem;
+    margin-top: 5%;
+    border-right: 2px solid rgb(31, 116, 227);
+    border-radius: 10%;
+}
+
+
+/* end content */
+#footer{
+background-color: rgb(15, 49, 62);
+position: relative;
+bottom:0px ;
+}
